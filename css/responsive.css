@@ -1,19 +1,75 @@
-@media (min-width: 1200px) {
+@media (min-width: 1200px) {}
+
+@media (min-width: 992px) and (max-width: 1199px) {}
+
+@media (min-width: 768px) and (max-width: 991px) {}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    /*
+    =======================================================
+    ================== Navbar Part Start ==================
+    =======================================================
+    */
+
+    .main_menu .navbar-toggler {
+        height: 40px;
+    }
+
+    .main_menu .navbar-toggler i {
+        font-size: 30px;
+        color: #222;
+    }
+
+    .main_menu .navbar-nav {
+        text-align: center;
+        padding: 15px 0 0;
+    }
+
+    .main_menu .navbar-nav li {
+        border-top: 1px solid #0000000f;
+    }
+
+    /*
+    =======================================================
+    ================== Navbar Part End ====================
+    =======================================================
+    */
+    
+    
     
 }
 
-@media (min-width: 992px) and (max-width: 1199px) {
-
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-
-}
-
-@media (min-width: 576px) and (max-width: 767px) {
-
-}
-
 @media (max-width: 575px) {
+    /*
+    =======================================================
+    ================== Navbar Part Start ==================
+    =======================================================
+    */
 
+    .main_menu .navbar-toggler {
+        height: 40px;
+    }
+
+    .main_menu .navbar-toggler i {
+        font-size: 30px;
+        color: #222;
+    }
+
+    .main_menu .navbar-nav {
+        text-align: center;
+        padding: 15px 0 0;
+    }
+
+    .main_menu .navbar-nav li {
+        border-top: 1px solid #0000000f;
+    }
+
+    /*
+    =======================================================
+    ================== Navbar Part End ====================
+    =======================================================
+    */
+    
+    
+    
 }

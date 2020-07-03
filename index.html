@@ -72,16 +72,20 @@
     ===================================================
     -->
     <!-- Fixed navbar -->
-    <nav class="navbar navbar-expand-md shadow-sm" style="background: #f9f9f9; height: 60px;">
-        <div class="container p-md-0">
+    <nav class="navbar navbar-expand-md shadow-sm main_menu" style="background: #f9f9f9; height: 60px; z-index: 999">
+        <div class="container p-0">
             <a class="navbar-brand p-0 m-0" href="">
                 
             </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+            <button class="navbar-toggler shadow-none m-auto" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <a href="/">
+                    <i class="fa fa-home"></i>
+                    <span class="display-6 pr-4 text-dark">HOME</span>
+                </a>
+                <i class="fa fa-bars pl-4"></i>
             </button>
             <div class="collapse navbar-collapse" id="navbarCollapse">
-                <ul class="navbar-nav m-auto mb-2 mb-md-0 d-flex justify-content-between" style="width: 100%;">
+                <ul class="navbar-nav m-auto d-flex justify-content-between" style="width: 100%; background: #f9f9f9;">
                     <li class="nav-item shadow-sm px-lg-2 px-xxl-3 bg-white active">
                         <a class="nav-link text-dark" href="ce/">CE</a>
                     </li>
